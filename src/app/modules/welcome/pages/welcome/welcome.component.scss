@@ -1,0 +1,25 @@
+.main {
+    font-family: Lato;
+
+    .header-title {
+        padding: 20px;
+        font-size: 50px;
+    }
+
+    .card {
+        padding: 50px;
+        background: #212D40;
+    }
+
+    button {
+        padding: 1em;
+        background: #7D4E57;
+        border: none;
+        border-radius: 10px;
+        transition: background 100ms;
+
+        &:hover {
+            background: #D66853;
+        }
+    }
+  }
